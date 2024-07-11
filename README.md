@@ -1,30 +1,73 @@
-# React + TypeScript + Vite
+Certainly! Here's a basic README file template for your TodoApp:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+# TodoApp
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Live Link: https://todo-list-app-ranas-projects-1575f089.vercel.app/
 
-## Expanding the ESLint configuration
+TodoApp is a simple React application for managing a list of todos. It allows users to add, edit, toggle completion status, and remove todos. The app also includes filtering options to view all todos, active todos, or completed todos.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![image](https://github.com/Ranaavh/Todo-List-App/assets/166323572/0d7717c5-b0c6-42dd-bfc9-38b8cc9fb36a)
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Features
+
+- Add new todos by entering text and pressing "Add".
+- Toggle completion status of todos by clicking on the checkbox.
+- Edit existing todos by clicking the edit icon.
+- Remove todos by clicking the delete icon.
+- Filter todos to view all, active, or completed todos using the dropdown menu.
+
+## Technologies Used
+
+- React
+- TypeScript
+- Tailwind CSS (for styling)
+- React Icons (for icons)
+
+## Getting Started
+
+To run the TodoApp locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+   ```
+
+2. Navigate into the project directory:
+
+   ```bash
+   cd todoapp
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
+
+## Usage
+
+- **Adding a Todo**: Enter a todo item in the input field and click "Add".
+- **Toggling Completion**: Click the checkbox to toggle completion status.
+- **Editing a Todo**: Click the edit icon next to a todo, make changes in the input field, and click "Save".
+- **Removing a Todo**: Click the delete icon next to a todo to remove it from the list.
+- **Filtering Todos**: Use the dropdown menu to filter todos by all, active, or completed.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to create an issue or submit a pull request.
+
+ If you like this ,Give a ⭐ [https://github.com/Ranaavh/]
+
